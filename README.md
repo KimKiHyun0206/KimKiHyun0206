@@ -18,6 +18,12 @@ Here are some ideas to get you started:
 
 ![header](https://capsule-render.vercel.app/api?type=cylinder&color=000000&height=150&section=header&text=KimKiHyun&fontColor=ffffff&fontSize=70&animation=fadeIn&fontAlignY=55)
 
+<br>
+
+![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)
+
+<br>
+
 
 ## 📚 Tech Stack 📚
 
@@ -45,9 +51,6 @@ Here are some ideas to get you started:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=KimKiHyun0206&show_icons=true&theme=tokyonight)
 
 </div>
-
-
-![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 

@@ -44,7 +44,7 @@ Here are some ideas to get you started:
 </div>
 
 
+![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)
+
 </div>
 
-
-![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)

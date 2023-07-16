@@ -24,7 +24,6 @@ Here are some ideas to get you started:
 
 
 ![](./profile-3d-contrib/profile-green-animate.svg)
-![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)
 
 <br>
 

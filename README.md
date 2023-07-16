@@ -16,14 +16,14 @@ Here are some ideas to get you started:
 <div align="center">
 
 
-![](./profile-3d-contrib/profile-green-animate.svg)
-
 <br>
 
 ![header](https://capsule-render.vercel.app/api?type=cylinder&color=000000&height=150&section=header&text=KimKiHyun&fontColor=ffffff&fontSize=70&animation=fadeIn&fontAlignY=55)
 
 <br>
 
+
+![](./profile-3d-contrib/profile-green-animate.svg)
 ![snake gif](https://github.com/KimKiHyun0206/KimKiHyun0206/blob/output/github-contribution-grid-snake.svg)
 
 <br>

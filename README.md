@@ -23,11 +23,6 @@ Here are some ideas to get you started:
 <br>
 
 
-![](./profile-3d-contrib/profile-season-animate.svg)
-
-<br>
-
-
 ## 📚 Tech Stack 📚
 
 <p>
@@ -54,6 +49,8 @@ Here are some ideas to get you started:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=KimKiHyun0206&show_icons=true&theme=tokyonight)
 
 </div>
+
+![](./profile-3d-contrib/profile-season-animate.svg)
 
 </div>
 

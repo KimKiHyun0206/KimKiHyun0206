@@ -22,9 +22,11 @@ Here are some ideas to get you started:
 
 <br>
 <br>
-<br>
-<br>
 
+![](./profile-3d-contrib/profile-season-animate.svg)
+
+<br>
+<br>
 
 ## 📚 Tech Stack 📚
 
@@ -45,15 +47,6 @@ Here are some ideas to get you started:
 
 <br>
 
-
-
-<div style="padding: 60px">
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=KimKiHyun0206&show_icons=true&theme=tokyonight)
-
 </div>
 
-![](./profile-3d-contrib/profile-season-animate.svg)
-
-</div>
 

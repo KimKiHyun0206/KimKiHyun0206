@@ -37,6 +37,11 @@ Here are some ideas to get you started:
 
 <div style="width: 50%; float: left;background: #526D82">
 
+<p>
+      <a href="https://kimkihyun0206.github.io/carte/"><img src="https://img.shields.io/badge/Blog-black?style=for-the-badge&logo=&logoColor=white"></a>
+      
+</p>
+
 
 
 <h2 style="color: #DDE6ED">📚 Tech Stack 📚</h2>

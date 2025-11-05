@@ -1,45 +1,42 @@
-# 커밋 먹는 뱀 그래프 생성을 위한 GitHub Action🐍
+# 파일 경로: .github/workflows/snake.yml
 
-name: Generate Snake
-
-# Action이 언제 구동될지 결정
+name: Generate GitHub Snake Animation
 
 on:
   schedule:
-    # 6시간마다 한 번(수정 가능)
-    - cron: "0 */6 * * *"
-
-  # 자동으로 Action이 실행되도록 함
-  workflow_dispatch:
+    # 매일 00:00 UTC (한국 시간 오전 9시)에 실행
+    - cron: "0 0 * * *" 
+  # 수동으로 실행할 수 있도록 허용
+  workflow_dispatch: 
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v2
+      - name: 1. Checkout Repository
+        # 최신 버전의 checkout 액션 사용
+        uses: actions/checkout@v4 
 
-      # 뱀 생성
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: 2. Generate GitHub Contributions Snake Animations
+        # Platane/snk 액션의 v3 버전 사용
+        uses: Platane/snk/svg-only@v3 
         with:
-          github_user_name: KimKiHyun0206
-          # output branch에 gif, svg를 각각 생성
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # 프로필 레포지토리 소유자의 GitHub ID를 자동으로 가져옴
+          github_user_name: ${{ github.repository_owner }}
+          
+          # 생성할 파일 목록 및 옵션 설정
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - run: git status
-
-      # 변경사항 push
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
-
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: 3. Push to Output Branch
+        # SVG 파일을 'output'이라는 별도의 브랜치에 커밋하여 main 브랜치를 깔끔하게 유지
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
+          # 저장소 쓰기 권한을 위해 GITHUB_TOKEN 사용
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

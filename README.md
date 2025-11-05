@@ -23,7 +23,8 @@ Here are some ideas to get you started:
 <br>
 <br>
 
-![](./profile-3d-contrib/profile-season-animate.svg)
+
+![GitHub Snake](https://raw.githubusercontent.com/KimKiHyun0206/KimKiHyun0206/output/github-snake.svg)
 
 <br>
 <br>

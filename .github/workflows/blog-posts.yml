@@ -1,9 +1,9 @@
 name: Latest blog post workflow
 on:
   schedule:
-    # 한 시간마다 자동으로 업데이트합니다.
-    - cron: '0 * * * *'
-  workflow_dispatch: # 수동으로도 실행 가능하게 설정합니다.
+    # 매일 한국 시간(KST) 00:00에 업데이트 (UTC 15:00)
+    - cron: '0 15 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme-with-blog:
@@ -16,7 +16,8 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://v2.velog.io/rss/@duskafka"
-          # $index: 번호, <font>: 색상(파란색 제거), $date: 날짜
-          template: "$newline$index. <a href='$url'><font color='#DDE6ED'>$title</font></a> ($date)"
+          # 1. 을 써주면 마크다운이 자동으로 1, 2, 3 번호를 매깁니다.
+          # $newline을 끝에 넣어 줄바꿈을 확실하게 합니다.
+          template: "1. <a href='$url'><font color='#DDE6ED'>$title</font></a> ($date)$newline"
           date_format: "yyyy-mm-dd"
-          max_post_count: 10 # 표시할 최대 글 개수 (원하는 대로 수정 가능)
+          max_post_count: 10

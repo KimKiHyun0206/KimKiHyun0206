@@ -20,8 +20,12 @@
   <img src="https://img.shields.io/badge/Blog-black?style=for-the-badge&logo=velog&logoColor=white">
 </a>
 
-<h3 style="color: #DDE6ED">✅ Latest Blog Posts</h3>
-
+<details>
+  <summary style="cursor: pointer; color: #DDE6ED;">
+    <h3>✅ Latest Blog Posts</h3>
+  </summary>
+<div align="left" style="margin-top: 10px; padding-left: 20px;">
+  
 <!-- BLOG-POST-LIST:START -->
 - [프로젝트의 시작과 소프트웨어 공학](https://velog.io/@duskafka/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%8B%9C%EC%9E%91%EA%B3%BC-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99)
 - [VPC 생성 실습](https://velog.io/@duskafka/VPC-%EC%83%9D%EC%84%B1-%EC%8B%A4%EC%8A%B5)
@@ -30,6 +34,9 @@
 - [AWS EC2](https://velog.io/@duskafka/AWS-EC2)
 <!-- BLOG-POST-LIST:END -->
 
+</div>
+
+  </details>
 
 <br>
 

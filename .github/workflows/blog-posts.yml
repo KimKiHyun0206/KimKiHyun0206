@@ -1,8 +1,9 @@
 name: Latest blog post workflow
 on:
   schedule:
+    # 한 시간마다 자동으로 업데이트합니다.
     - cron: '0 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # 수동으로도 실행 가능하게 설정합니다.
 
 jobs:
   update-readme-with-blog:
@@ -14,4 +15,8 @@ jobs:
       - name: Pull in posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://v2.velog.io/rss/@duskafka" # 여기에 본인 주소 확인!
+          feed_list: "https://v2.velog.io/rss/@duskafka"
+          # $index: 번호, <font>: 색상(파란색 제거), $date: 날짜
+          template: "$newline$index. <a href='$url'><font color='#DDE6ED'>$title</font></a> ($date)"
+          date_format: "yyyy-mm-dd"
+          max_post_count: 10 # 표시할 최대 글 개수 (원하는 대로 수정 가능)

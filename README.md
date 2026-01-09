@@ -21,7 +21,9 @@
 </a>
 
 <h3 style="color: #DDE6ED">✅ Latest Blog Posts</h3>
-```
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 
 <br>

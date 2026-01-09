@@ -23,6 +23,11 @@
 <h3 style="color: #DDE6ED">✅ Latest Blog Posts</h3>
 
 <!-- BLOG-POST-LIST:START -->
+- [프로젝트의 시작과 소프트웨어 공학](https://velog.io/@duskafka/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%8B%9C%EC%9E%91%EA%B3%BC-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99)
+- [VPC 생성 실습](https://velog.io/@duskafka/VPC-%EC%83%9D%EC%84%B1-%EC%8B%A4%EC%8A%B5)
+- [VPC를 Default VPC에 만들면 안 되는 이유](https://velog.io/@duskafka/VPC%EB%A5%BC-Default-VPC%EC%97%90-%EB%A7%8C%EB%93%A4%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
+- [AWS RDS](https://velog.io/@duskafka/AWS-RDS)
+- [AWS EC2](https://velog.io/@duskafka/AWS-EC2)
 <!-- BLOG-POST-LIST:END -->
 
 

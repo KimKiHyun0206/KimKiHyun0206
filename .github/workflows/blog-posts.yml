@@ -16,9 +16,8 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://v2.velog.io/rss/@duskafka"
-          # $index를 사용하여 번호를 명시 (1, 2, 3...)
-          # style 속성을 사용하여 파란색 제거 및 색상 고정
-          # 📖 이모지 추가
-          template: "$index. <a href='$url' style='color: #DDE6ED; text-decoration: none;'>📖 $title</a> ($date)$newline"
+          # 1. 대신 <li>를 사용하여 <ol> 태그의 자동 번호 기능을 활용합니다.
+          # style을 통해 파란색 링크와 밑줄을 제거합니다.
+          template: "<li><a href='$url' style='color: #DDE6ED; text-decoration: none;'>📖 $title</a> <span style='color: #DDE6ED;'>($date)</span></li>"
           date_format: "yyyy-mm-dd"
           max_post_count: 10

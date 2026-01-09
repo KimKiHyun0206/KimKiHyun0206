@@ -16,8 +16,9 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://v2.velog.io/rss/@duskafka"
-          # 1. 을 써주면 마크다운이 자동으로 1, 2, 3 번호를 매깁니다.
-          # $newline을 끝에 넣어 줄바꿈을 확실하게 합니다.
-          template: "1. <a href='$url'><font color='#DDE6ED'>$title</font></a> ($date)$newline"
+          # $index를 사용하여 번호를 명시 (1, 2, 3...)
+          # style 속성을 사용하여 파란색 제거 및 색상 고정
+          # 📖 이모지 추가
+          template: "$index. <a href='$url' style='color: #DDE6ED; text-decoration: none;'>📖 $title</a> ($date)$newline"
           date_format: "yyyy-mm-dd"
           max_post_count: 10

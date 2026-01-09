@@ -27,12 +27,16 @@
 <div align="left" style="margin-top: 10px; padding-left: 20px;">
   
 <!-- BLOG-POST-LIST:START -->
-- [프로젝트의 시작과 소프트웨어 공학](https://velog.io/@duskafka/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%8B%9C%EC%9E%91%EA%B3%BC-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99)
-- [VPC 생성 실습](https://velog.io/@duskafka/VPC-%EC%83%9D%EC%84%B1-%EC%8B%A4%EC%8A%B5)
-- [VPC를 Default VPC에 만들면 안 되는 이유](https://velog.io/@duskafka/VPC%EB%A5%BC-Default-VPC%EC%97%90-%EB%A7%8C%EB%93%A4%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
-- [AWS RDS](https://velog.io/@duskafka/AWS-RDS)
-- [AWS EC2](https://velog.io/@duskafka/AWS-EC2)
-<!-- BLOG-POST-LIST:END -->
+$index. <a href='https://velog.io/@duskafka/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EC%8B%9C%EC%9E%91%EA%B3%BC-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99'><font color='#DDE6ED'>프로젝트의 시작과 소프트웨어 공학</font></a> (2025-11-12)
+$index. <a href='https://velog.io/@duskafka/VPC-%EC%83%9D%EC%84%B1-%EC%8B%A4%EC%8A%B5'><font color='#DDE6ED'>VPC 생성 실습</font></a> (2025-09-02)
+$index. <a href='https://velog.io/@duskafka/VPC%EB%A5%BC-Default-VPC%EC%97%90-%EB%A7%8C%EB%93%A4%EB%A9%B4-%EC%95%88-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0'><font color='#DDE6ED'>VPC를 Default VPC에 만들면 안 되는 이유</font></a> (2025-09-02)
+$index. <a href='https://velog.io/@duskafka/AWS-RDS'><font color='#DDE6ED'>AWS RDS</font></a> (2025-09-01)
+$index. <a href='https://velog.io/@duskafka/AWS-EC2'><font color='#DDE6ED'>AWS EC2</font></a> (2025-09-01)
+$index. <a href='https://velog.io/@duskafka/%EC%BB%A8%EB%B2%A4%EC%85%98'><font color='#DDE6ED'>컨벤션</font></a> (2025-08-25)
+$index. <a href='https://velog.io/@duskafka/%ED%85%8C%EB%9D%BC%ED%8F%BC'><font color='#DDE6ED'>테라폼</font></a> (2025-08-25)
+$index. <a href='https://velog.io/@duskafka/%EB%B3%B4%EC%95%88-%EB%AC%B8%EC%A0%9C%EB%8A%94-%EC%98%88%EC%83%81%EC%B9%98-%EB%AA%BB%ED%95%9C-%EA%B3%B3%EC%97%90%EC%84%9C-%EC%83%9D%EA%B8%B4%EB%8B%A4'><font color='#DDE6ED'>보안 문제는 예상치 못한 곳에서 생긴다</font></a> (2025-08-24)
+$index. <a href='https://velog.io/@duskafka/WebFlux-%EC%8A%A4%EB%A0%88%EB%93%9C-%EB%8F%99%EC%9E%91-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%EC%9D%98-reactor%EC%99%80-parallel-%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%A0%84%ED%99%98'><font color='#DDE6ED'>WebFlux 스레드 동작: 스프링 시큐리티의 reactor와 parallel 스레드 전환</font></a> (2025-08-22)
+$index. <a href='https://velog.io/@duskafka/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8A%A4%EB%A0%88%EB%93%9C-%ED%92%80%EC%9D%98-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4'><font color='#DDE6ED'>스프링 스레드 풀의 라이프사이클</font></a> (2025-08-21)<!-- BLOG-POST-LIST:END -->
 
 </div>
 

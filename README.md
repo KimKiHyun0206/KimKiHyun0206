@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Blog-black?style=for-the-badge&logo=velog&logoColor=white">
 </a>
 
-<details open>
+<details>
   <summary style="cursor: pointer; color: #DDE6ED;">
     <h3 style="display: inline;">✅ Latest Blog Posts</h3>
   </summary>
@@ -32,7 +32,7 @@
 </ol>
 </div>
 </details>
-  
+
 
 <br>
 
